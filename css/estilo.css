@@ -1,0 +1,229 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.contenedor{
+	background-color:#710000; 
+	font-size: 12px;
+	font-style: justify;
+	color: 	#FFFFFF;
+}
+
+header{
+	width: 100%;
+	float: left;
+	border: 2px solid #080808;
+	background-color: #f53a0b;	
+}
+
+	.titulos{
+		font-family: 'Oswald', Arial;
+		text-align: center;
+		text-shadow: 14px 12px #000000;
+		letter-spacing: 3px;
+		color:  #f2f2ff;
+		word-spacing: 5px;	
+		line-height: 60px;
+
+	}
+
+	.titulos h1{
+		float: left;
+		padding-top: 10px;
+		padding-left: 15px;
+		font-size: 40px;
+		
+	}
+
+	.titulos h2{
+		float: left;
+		padding-top: 60px;
+		font-size: 25px;
+	}
+
+	.logo{
+		float: left;
+		margin-left: 25px;
+		margin-top: 10px; 
+		padding-left: 15px;
+	}
+	
+
+.header2{
+	position: fixed;
+	height: 80px;
+}
+
+	.header2 .logo{
+		padding-left: 30px;	
+	}
+	.header2 .logo img{
+		width: 40%;
+		height: 40%;
+	}
+
+	.header2 .titulos{
+		line-height: 30px;
+	}
+	.header2 .titulos h1{
+		font-size: 30px;
+		padding-left: 10px;	
+	}
+	.header2 .titulos h2{
+		font-size: 15px;	
+		padding-top: 40px;
+	}
+
+/* 	.header2 .BotonesColores{
+
+	} */
+.cuerpo{
+	height: 450px;
+}
+
+	.izquierdaConcepto, .derechaCaracteristicas, .izquierdaObjetivos, .derechaEstructura{
+		float: left;
+		height: 100%;
+		padding: 10px;
+		box-sizing:border-box;
+	}
+
+	.izquierdaConcepto{
+		margin-left: 10px;
+		width: 40%;
+	}
+
+	.derechaCaracteristicas{
+		width: 45%;
+		float: right;
+	}
+
+	.izquierdaObjetivos{
+		clear: both;
+		float: left;
+		width: 50%;
+	}
+
+	.derechaEstructura{
+		width: 50%;
+		float: right;
+	}
+
+	.cuerpo h2{
+		font-family: 'Oswald', Arial;
+		font-weight: bolder;
+		font-style: italic;
+		text-decoration-line: underline;
+		text-shadow: 4px 2px #000000;
+		letter-spacing: 3px;
+		color:  #00FFFF;
+		word-spacing: 5px;
+		font-size: 24px;			
+	}
+	
+	.cuerpo p{
+		font-family: Verdana, Arial;
+		color:  #ffffff;
+		font-size: 16px;
+		text-align: justify;
+	}
+	
+
+.menu{
+	clear: both;
+	float: left;
+	margin-left: 10px;
+	padding-left: 15px;
+	padding-top: 10px;
+}
+
+.menu ul{
+	list-style: none;
+}
+.menu li{
+	display: block;
+}
+
+.menu a{
+	text-decoration: none;
+	font-size: 18px;
+	color: #FFFFFF;
+	font-weight: bolder;
+}
+
+.menu  a:hover{
+	background-color: #FF9393;
+}
+
+
+
+footer{
+	clear: both;
+	width: 100%;
+/*	background-color: #828282;*/
+	height: 30px;
+	padding: 2px;
+}
+
+/******************** BOTONES DE COLORES **********/
+.BotonesColores{
+	padding-top: 20px;
+	padding-left: 50px;
+	float: left;
+	}
+	
+	.BotonesColores .BotonAzul{
+		float: left;
+		width: 25px;
+		height: 25px;
+	
+		border-radius: 100%;
+		border-style: solid;
+		border-color:  #0000FF;
+		background-color: #0000FF;
+	
+		/* transition: width: 2s, height: 4s; */
+	}
+	
+	.BotonesColores .BotonPlateado{
+		float: left;
+		width: 25px;
+		height: 25px;
+	
+		border-radius: 100%;
+		border-style: solid;
+		border-color:  #6C6C6C;
+		background-color: #6C6C6C;
+		margin-left: 15px;
+	
+		/* transition: width: 2s, height: 4s; */
+	}
+	
+	.BotonesColores .BotonBordo{
+		float: left;
+		width: 25px;
+		height: 25px;
+	
+		border-radius: 100%;
+		border-style: solid;
+		border-color:  #710000;
+		background-color: #710000;
+		margin-left: 15px;
+	
+		/* transition: width: 2s, height: 4s; */
+	}
+	
+	.BotonesColores .BotonVainilla{
+		float: left;
+		width: 25px;
+		height: 25px;
+	
+		border-radius: 100%;
+		border-style: solid;
+		border-color:  #ECD54F;
+		background-color: #ECD54F;
+		margin-left: 15px;
+	
+		/* transition: width: 2s, height: 4s; */
+	}
